@@ -10,7 +10,7 @@
 
 header {
   background-image: url(assect/bn.png);
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   padding: 20px 0; /* Added padding for spacing */
 }
