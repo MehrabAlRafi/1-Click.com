@@ -16,7 +16,6 @@ nav ul {
   display: flex;
   align-items: center;
   gap: 30px;
-  /* padding-bottom: 30px; */
 }
 
 nav li {
@@ -97,14 +96,6 @@ footer {
 footer p {
   padding-top: 10px;
 }
-
-/* .rr {
-  display: flex;
-}
-
-.rr p {
-  padding-right: 100px;
-} */
 
 i {
   padding-right: 5px;
