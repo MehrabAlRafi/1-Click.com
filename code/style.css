@@ -1,0 +1,366 @@
+* {
+  margin: 0 auto;
+  max-width: 1920px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* header style */
+
+header {
+  background-image: url(../assect/bn.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 20px 0; /* Added padding for spacing */
+}
+
+/* nav style */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding-bottom: 30px;
+}
+
+nav li {
+  list-style: none;
+  font-size: 16px;
+  color: aliceblue;
+  font-weight: 800;
+  border: 1px solid rgb(255, 254, 254);
+  border-radius: 6px;
+  padding: 2px;
+  font-weight: 800;
+  border-width: 2px;
+  border-style: groove;
+  padding: 5px 15px;
+}
+
+nav li:hover {
+  background-color: #8000ff;
+  transition: 1s;
+  padding: 5px 15px;
+}
+nav li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+nav img {
+  width: 7%;
+  padding-right: 50%;
+  padding-top: 10px;
+}
+
+/* header banner */
+
+.banner-container {
+  padding-bottom: 30px; /* Adjusted padding to reduce excessive height */
+}
+
+.banner-sub-container {
+  display: flex;
+  align-items: center; /* Added to vertically center content */
+}
+
+.banner-container img {
+  width: 50%;
+  padding-right: 15px;
+}
+
+.banner-info-container {
+  padding-top: 6%;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-bottom: 10px;
+}
+
+.banner-info {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.banner-second-info {
+  font-size: 40px;
+  padding-top: 3px;
+  padding-bottom: 20px;
+  color: aliceblue;
+}
+.banner-title {
+  font-size: 50px;
+  color: aliceblue;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.banner-info {
+  font-size: 25px;
+  color: aliceblue;
+}
+
+.header-btn {
+  font-size: 20px;
+  padding: 15px;
+  font-weight: 900;
+  background-color: rgba(0, 10, 9, 0.979);
+  border: 0;
+  color: aliceblue;
+  border-radius: 8px;
+}
+
+.header-btn a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.header-btn:hover {
+  background-color: crimson;
+  transition: 1s;
+}
+
+/* main features section */
+
+.main-features-container {
+}
+.main-speciality-head-title {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-size: 25px;
+  font-weight: 900;
+}
+.main-speciality-sub-container {
+  display: flex;
+  text-align: center;
+}
+
+.main-speciality-info-peragraph1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  color: gray;
+}
+.main-speciality-info-peragraph2 {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  color: gray;
+}
+.main-speciality-info-peragraph3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  color: gray;
+}
+
+.main-speciality-info1-title {
+  font-size: 30px;
+  padding-top: 20px;
+}
+.main-speciality-info1 img {
+  width: 35%;
+}
+
+.main-speciality-info2 img {
+  width: 50%;
+}
+
+.main-speciality-info3 img {
+  width: 16%;
+}
+
+.main-speciality-info1 {
+  width: 17%;
+  border: 1px solid gray;
+  padding: 25px;
+  border-radius: 4px;
+}
+
+.main-speciality-info2 {
+  width: 17%;
+  border: 1px solid gray;
+  padding: 25px;
+  border-radius: 4px;
+}
+
+.main-speciality-info3 {
+  width: 17%;
+  border: 1px solid gray;
+  padding: 25px;
+  border-radius: 4px;
+}
+
+/* main features sectioon */
+
+.main-features-head-title {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 25px;
+  font-weight: 900;
+}
+.features-container {
+  margin-top: 100px;
+}
+
+.features1 {
+  color: aliceblue;
+  width: 500px;
+  text-align: center;
+  padding-bottom: 50px;
+  height: 350px;
+}
+
+.features1-info {
+  font-size: 20px;
+}
+
+.features1-info:hover {
+  background-color: rgb(250, 248, 248);
+  border-radius: 30px;
+  transition: 0.5s;
+
+  color: black;
+  text-align: center;
+  padding: 15px;
+  font-weight: 700;
+}
+.features1-head-title {
+  padding-top: 70px;
+  padding-bottom: 40px;
+  font-size: 32px;
+  font-weight: 700;
+}
+.features1-sub-container {
+  display: flex;
+  align-items: center;
+}
+
+.features1-sub-container img {
+  width: 30%;
+  height: 70%;
+  padding-left: 90px;
+}
+
+.features1-sub-container {
+  background-image: url(../assect/p1.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 640px;
+}
+
+/* .features1-sub-container:hover {
+
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+} */
+
+.features2-container {
+  background-image: url(../assect/modern-dark-blue-wallpaper-template-design-gradient-color-of-dark-blue-background-used-in-abstract-bg-and-wallpaper-template-vector.jpg);
+  margin-top: 5px;
+  color: aliceblue;
+  display: flex;
+  text-align: center;
+  height: 640px;
+  background-size: 100%;
+}
+
+.features2-info-container {
+  color: aliceblue;
+  width: 500px;
+  text-align: center;
+  /* padding-bottom: 50px; */
+  /* height: 350px; */
+  padding-top: 250px;
+}
+
+.features2-info:hover {
+  background-color: rgb(250, 248, 248);
+  border-radius: 30px;
+  transition: 0.5s;
+  font-size: 21px;
+  color: black;
+  text-align: center;
+  padding: 15px;
+  font-weight: 700;
+}
+.features2-img-container img {
+  padding-top: 40px;
+  width: 700px;
+}
+
+.features2-head-title {
+  padding-bottom: 20px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.features2-info {
+  font-size: 20px;
+}
+
+.yy {
+  width: 100%;
+}
+
+.features3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* footer section */
+
+footer {
+  margin-top: 20px;
+  display: flex;
+  background-color: black;
+  color: aliceblue;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-info {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 15px;
+}
+
+.form-container {
+  padding-top: 50px;
+}
+
+.input-title {
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+.email-input {
+  border-radius: 2px;
+  height: 27px;
+  width: 250px;
+  background-color: antiquewhite;
+}
+
+::placeholder {
+  font-weight: 700;
+  font-size: 15px;
+}
+.comment-input {
+  height: 100px;
+  background-color: antiquewhite;
+}
+
+.submit-button {
+  padding: 10px;
+  font-weight: 700;
+  border: 0;
+  width: 90px;
+  font-size: 15px;
+  margin-top: 15px;
+}
