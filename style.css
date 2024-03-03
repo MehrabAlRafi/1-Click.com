@@ -106,13 +106,13 @@ nav img {
 }
 
 .header-btn {
-  font-size: 32px;
+  font-size: 30px;
   font-weight: 900;
-  padding: 15px 30px;
+  padding: 15px 15px;
   font-weight: 900;
   background-color: rgba(5, 253, 228, 0.979);
   border: 0;
-  border-radius: 8px;
+  border-radius: 5px;
 }
 
 .header-btn a {
@@ -120,6 +120,9 @@ nav img {
   color: rgb(0, 0, 0);
 }
 
+.header-btn i {
+  color: rgb(0, 0, 0);
+}
 .header-btn:hover {
   background-color: rgb(111, 175, 247);
   transition: 0.25s;
@@ -216,7 +219,7 @@ nav img {
 }
 
 .features1-info {
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .features1-info:hover {
@@ -232,8 +235,8 @@ nav img {
 .features1-head-title {
   padding-top: 70px;
   padding-bottom: 40px;
-  font-size: 32px;
-  font-weight: 700;
+  font-size: 35px;
+  font-weight: 900;
 }
 .features1-sub-container {
   display: flex;
@@ -252,12 +255,6 @@ nav img {
   background-size: 100%;
   height: 640px;
 }
-
-/* .features1-sub-container:hover {
-
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
-} */
 
 .features2-container {
   background-image: url(assect/features3.jpg);
@@ -282,7 +279,7 @@ nav img {
   background-color: rgb(250, 248, 248);
   border-radius: 30px;
   transition: 0.5s;
-  font-size: 21px;
+  font-size: 25px;
   color: black;
   text-align: center;
   padding: 15px;
@@ -296,14 +293,14 @@ nav img {
 .features2-head-title {
   padding-bottom: 20px;
   font-size: 32px;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 .features2-info {
-  font-size: 20px;
+  font-size: 25px;
 }
 
-.yy {
+.animation {
   width: 100%;
 }
 
@@ -325,12 +322,22 @@ footer {
 
 .footer-info {
   text-align: center;
-  padding-top: 30px;
-  font-size: 15px;
+  padding-top: 100px;
+  font-size: 20px;
 }
 
+.footer-info a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.footer-info i {
+  padding-right: 20px;
+  font-size: 20px;
+}
 .form-container {
   padding-top: 50px;
+  padding-bottom: 15px;
 }
 
 .input-title {
@@ -342,23 +349,32 @@ footer {
   border-radius: 2px;
   height: 27px;
   width: 250px;
-  background-color: antiquewhite;
+  background-color: rgb(252, 252, 252);
+  border: 2px solid;
+  border-style: dotted;
 }
 
 ::placeholder {
-  font-weight: 700;
+  font-weight: 900;
   font-size: 15px;
+  color: black;
 }
 .comment-input {
   height: 100px;
-  background-color: antiquewhite;
+  width: 400px;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid;
+  border-style: dotted;
 }
 
 .submit-button {
   padding: 10px;
-  font-weight: 700;
+  font-weight: 900;
   border: 0;
   width: 90px;
-  font-size: 15px;
+  font-size: 16px;
   margin-top: 15px;
+  border-radius: 3px;
+  background-color: crimson;
+  color: white;
 }
